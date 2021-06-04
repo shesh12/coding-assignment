@@ -210,7 +210,7 @@ header {
     margin: 0px;
     padding: 0px;
 }
-.filtertype-box ul li.active{
+.filtertype-box ul li:hover{
     background: #7cba01;
 }
 .filtertype-box ul li{
@@ -224,6 +224,7 @@ header {
     display: inline-block;
     margin: 3px 3px 3px 3px;
     width: 44%;
+    cursor: pointer;
 }
 
 .content-wrapper{
@@ -241,7 +242,7 @@ header {
     background: #fff;
     padding: 18px;
     border-radius: 12px;
-    margin:0px 0px 16px;
+    margin:0px 6px 16px;
 }
 
 
